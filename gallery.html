@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./Images/logo.jpg">
+    <link rel="stylesheet" href="Css/style.css">
+    <title>Gallery</title>
+</head>
+
+<body>
+    <!-- here is the starting web  -->
+    <div class="main">
+        <!-- header start  -->
+        <header>
+            <!-- logo  -->
+            <div class="logo">
+                <img src="Images/logo.jpg" alt="logo">
+            </div>
+            <!-- logo end  -->
+        </header>
+
+
+        <!-- Navigation   -->
+        <div class="navigation">
+            <nav class="nav">
+                <ul>
+                    <li> <a href="index.html">Home</a> </li>
+                    <li> <a href="about.html">About Us</a> </li>
+                    <li> <a href="gallery.html">Gallery</a> </li>
+                    <li> <a href="#">Staff</a> </li>
+                    <li> <a href="#">Activities</a> </li>
+                    <li> <a href="#">Facilities</a> </li>
+                    <li> <a href="#">Admission</a> </li>
+                    <li> <a href="#">Contact Us</a> </li>
+                </ul>
+            </nav>
+            <!-- harmburger   -->
+            <div class="harmburger">
+                <img src="Images/mobile-nav-icon.png" alt="resp-nav" id="resp-nav">
+            </div>
+            <!-- harmbuger end  -->
+            <!-- resp-nav  -->
+            <nav class="resp-nav" id="navigation">
+                <ul>
+                    <li> <a href="index.html">Home</a> </li>
+                    <li> <a href="about.html">About Us</a> </li>
+                    <li> <a href="gallery.html">Gallery</a> </li>
+                    <li> <a href="#">Staff</a> </li>
+                    <li> <a href="#">Activities</a> </li>
+                    <li> <a href="#">Facilities</a> </li>
+                    <li> <a href="#">Admission</a> </li>
+                    <li> <a href="#">Contact Us</a> </li>
+                </ul>
+                <div class="croseBtn" id="crosebtn">X</div>
+            </nav>
+            <!-- resp-nav end  -->
+        </div>
+        <!-- Navigation end  -->
+
+        <!-- Gallery Section  -->
+        <div class="gallerySection">
+            <div class="GalleryRow1">
+                <h3>Gallery</h3>
+            </div>
+            <div class="gallerySection2">
+                <div class="galleryRow">
+                    <div class="gallery">
+                        <img src="Images/gallery 1.jpeg" alt="gallery" class="slide" onclick="blockdiv(this.src)">
+                    </div>
+                    <div class="gallery">
+                        <img src="Images/gallery 2.jpeg" alt="gallery" class="slide" onclick="blockdiv(this.src)">
+                    </div>
+                    <div class="gallery">
+                        <img src="Images/gallery 3.jpeg" alt="gallery" class="slide" onclick="blockdiv(this.src)">
+                    </div>
+                    <div class="gallery">
+                        <img src="Images/gallery 4.jpeg" alt="gallery" class="slide" onclick="blockdiv(this.src)">
+                    </div>
+                    <div class="gallery">
+                        <img src="Images/gallery 5.jpeg" alt="gallery" class="slide" onclick="blockdiv(this.src)">
+                    </div>
+                    <div class="gallery">
+                        <img src="Images/gallery 7.jpeg" alt="gallery" class="slide" onclick="blockdiv(this.src)">
+                    </div>
+                    <div class="gallery">
+                        <img src="Images/gallery 8.jpeg" alt="gallery" class="slide" onclick="blockdiv(this.src)">
+                    </div>
+                    <div class="gallery">
+                        <img src="Images/gallery 9.jpeg" alt="gallery" class="slide" onclick="blockdiv(this.src)">
+                    </div>
+                    <div class="gallery">
+                        <img src="Images/galllery 6.jpeg" alt="gallery" class="slide" onclick="blockdiv(this.src)">
+                    </div>
+                </div>
+                <!-- gallery end  -->
+
+                <!-- sliderGallery  -->
+                <div class="sliderGallery" id="sliderGallery">
+                    <div class="croseBtn" id="croseBtn2">X</div>
+                    <div class="sliderImage">
+                        <button class="btn" onclick="goPrev()"><</button>
+                                <div class="Images">
+                                    <img src="Images/gallery 1.jpeg" alt="gallery" id="gallery">
+                                </div>
+                                <button class="btn" onclick="goNext()">></button>
+                    </div>
+                </div>
+                <!-- sliderGallery end  -->
+            </div>
+            <!-- gallery section2 end  -->
+        </div>
+        <!-- gallery section end  -->
+
+
+        <!-- footer start  -->
+        <footer>
+            <div class="footerrow1">
+                <div class="footercol1">
+                    <img src="Images/logo.jpg" alt="logo">
+                    <p class="para">Blooming Buds' Academy is a renowned educational group in Rajasthan. It is an
+                        educational hub of school.The campuses is sprawled over more than 10 bighas of land with the
+                        latest infrastructure, along with widespread green fields.</p>
+                </div>
+                <div class="footercol2">
+                    <nav class="footer-nav">
+                        <ul>
+                            <li> <a href="index.html">Home</a> </li>
+                            <li> <a href="about.html">About Us</a> </li>
+                            <li> <a href="gallery.html">Gallery</a> </li>
+                            <li> <a href="#">Staff</a> </li>
+                            <li> <a href="#">Activities</a> </li>
+                            <li> <a href="#">Facilities</a> </li>
+                            <li> <a href="#">Admission</a> </li>
+                            <li> <a href="#">Contact Us</a> </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="footercol3">
+                    <h4>Get in Touch</h4>
+                    <div class="location">
+                        <img src="Images/location-dot-solid.svg" alt="location">
+                        <p class="para">sarangwas, desuri Road, dist - pali (Rajasthan) 306703 (Nearest Khetlaji Mandir)
+                        </p>
+                    </div>
+                    <div class="email">
+                        <img src="Images/envelope-solid.svg" alt="email">
+                        <p class="para">mdwivedi171982@gmail.com</p>
+                    </div>
+                    <div class="phone">
+                        <img src="Images/mobile-screen-solid.svg" alt="mobile">
+                        <p class="para">7727803697 <br /> 7742102253</p>
+                    </div>
+                    <div class="timing">
+                        <img src="Images/timer3.png" alt="timing">
+                        <p class="para">Mon - Sat 08:30 AM to 01.30 PM</p>
+                    </div>
+                    <div class="socialLinks">
+                        <a href="#"><img src="Images/facebook.png" alt="facebook"></a>
+                        <a href="#"> <img src="Images/youtube.png" alt="youtube"></a>
+                        <a href="#"><img src="Images/instagram.png" alt="Instagram"></a>
+                    </div>
+                </div>
+            </div>
+            <!-- row end  -->
+            <!-- footer row2  -->
+            <div class="footerRow2">
+                <p class="para">Copyright © 2021 <span>Blooming buds academy School</span> | All Rights Reserved |
+                    Designed & Developed By <span>Abhishek Web Development</span> </p>
+            </div>
+        </footer>
+        <!-- footer end  -->
+    </div>
+    <!-- main div end  -->
+    <!-- here is the ending  -->
+    <script src="javascript/javascript.js"></script>
+</body>
+
+</html>
